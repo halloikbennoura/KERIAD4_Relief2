@@ -37,8 +37,6 @@ if ($row["Naam"]!=$naam)
 
 //de sessie_id die je krijgt als antwoord, stuur je naar je arduino. ook de data die je wilt vergaren
 
-//session_id voor id=1 en wachtwoord= hoi 
-//mqtqt2kju7hkna7094bp9qum36
 
 ?>
 
