@@ -25,10 +25,7 @@ geleegd=1 WHERE thing_id=$thing_id ORDER BY tijd_nat DESC LIMIT 1";
     
 if( $query){
     echo "Succes! De katheter is geleegd en de tijd is geplaatst.";
-} //else {
-//    echo "ERROR: Was not able to execute $query. ";
-//}
-
+} 
 if (!($result = $mysqli->query($query)))
 showerror($mysqli->errno,$mysqli->error);
       
