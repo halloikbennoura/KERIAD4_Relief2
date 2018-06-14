@@ -10,9 +10,7 @@ session_start();
 
 //----------
 
-//opdracht 9
-//temperature en things zijn hier gekoppeld
-//Maak een lijst met gebruikersnamen en bijbehorende thing namen
+//kijk naar opdracht 9
 
 
 $query = "SELECT things.id, things.patient, things.waarschuwing_legen, things_data.id AS data_id, things_data.tijd_nat, things_data.tijd_geleegd, things_data.geleegd
