@@ -10,13 +10,7 @@ session_start();
 $query = "SELECT things.waarschuwing_legen
 FROM things ORDER BY things.waarschuwing_legen DESC 
 LIMIT 1";
-    
-//$user_id = $_GET["user_id"];
-//$waarschuwing = $_GET["waarschuwing_legen"];
-//    
-//$query = "SELECT things.user_id, things.waarschuwing_legen
-//FROM things ORDER BY things.waarschuwing_legen DESC 
-//LIMIT 1 VALUES ($user_id, $waarschuwing)" ;
+
 
 if (!($result = $mysqli->query($query)))
 showerror($mysqli->errno,$mysqli->error);
